@@ -1,0 +1,120 @@
+<div class="card">
+  <p-panel header="Datos Informativos">
+    <div class="grid border-solid border-round border-200">
+      <div class="col-2 text-center text-1xl font-bold">Realizado Por:</div>
+      <div class="col-4 text-center text-1xl">Diego P. Tamayo B.</div>
+      <div class="col-2 text-center text-1xl font-bold">
+        Directora de Tesis:
+      </div>
+      <div class="col-4 text-center text-1xl">Leire Ozaeta Rodriguez.</div>
+    </div>
+    <br />
+    <div class="grid border-solid border-round border-200">
+      <div class="col-2 text-center text-1xl font-bold">Twitter:</div>
+      <div class="col-4 text-center text-1xl">
+        <a href="https://twitter.com/dpaul_tamayo" target="_blank"
+          ><i class="pi pi-twitter" style="font-size: 2rem"></i
+        ></a>
+      </div>
+      <div class="col-2 text-center text-1xl font-bold">Twitter:</div>
+      <div class="col-4 text-center text-1xl">
+        <a href="https://twitter.com/dpaul_tamayo" target="_blank"
+          ><i class="pi pi-twitter" style="font-size: 2rem"></i
+        ></a>
+      </div>
+    </div>
+  </p-panel>
+  <br />
+  <p-panel header="Repositorio del Código Fuente">
+    <div class="grid">
+      <div
+        class="col text-center border-solid border-round border-200"
+      >
+        <a
+          href="https://github.com/paultamayo/procesamiento-imagen"
+          target="_blank"
+        >
+          <i class="pi pi-github" style="font-size: 2.5rem; color: black"> </i
+        ></a>
+      </div>
+    </div>
+  </p-panel>
+  <br />
+  <p-panel header="Datos Informativos Universidad">
+    <div class="grid border-solid border-round border-200">
+      <div class="col-2 text-center text-1xl"></div>
+      <div class="col-8 text-center text-1xl text-center"><a href="https://ecuador.unir.net/">Universidad Internacional de la Rioja</a></div>
+      <div class="col-2 text-center text-1xl"></div>
+    </div>
+  </p-panel>
+</div>
+
+<div class="card">
+  <p-panel header="Modelos Utilizados para la Tesis"
+    ><p-tabView>
+      <p-tabPanel header="Bertweet">
+        <p class="text-2xl font-bold">
+          finiteautomata/bertweet-base-sentiment-analysis
+        </p>
+        <p>
+          Model trained with SemEval 2017 corpus (around ~40k tweets). Base
+          model is BERTweet, a RoBERTa model trained on English tweets. Uses
+          POS, NEG, NEU labels.
+        </p>
+        <p class="text-2xl font-bold">Repositorio</p>
+        <p>
+          <a
+            href="https://huggingface.co/finiteautomata/bertweet-base-sentiment-analysis"
+            >bertweet-base-sentiment-analysis</a
+          >
+        </p>
+      </p-tabPanel>
+      <p-tabPanel header="BYT5">
+        <p class="text-2xl font-bold">
+          Narrativa/byt5-base-tweet-hate-detection
+        </p>
+        <p>
+          ByT5 base fine-tuned on tweets hate speech detection dataset for
+          Sequence Classification downstream task.
+        </p>
+        <p class="text-2xl font-bold">Repositorio</p>
+        <p>
+          <a
+            href="https://huggingface.co/Narrativa/byt5-base-tweet-hate-detection"
+            >byt5-base-tweet-hate-detection</a
+          >
+        </p>
+      </p-tabPanel>
+      <p-tabPanel header="NLKT">
+        <p class="text-2xl font-bold">NLKT</p>
+        <p>
+          NLTK is a leading platform for building Python programs to work with
+          human language data. It provides easy-to-use interfaces to over 50
+          corpora and lexical resources such as WordNet, along with a suite of
+          text processing libraries for classification, tokenization, stemming,
+          tagging, parsing, and semantic reasoning, wrappers for
+          industrial-strength NLP libraries, and an active discussion forum.
+        </p>
+        <p class="text-2xl font-bold">Repositorio</p>
+        <p>
+          <a href="https://www.nltk.org/howto/sentiment.html"
+            >https://www.nltk.org/index.html</a
+          >
+        </p>
+      </p-tabPanel>
+      <p-tabPanel header="Roberta">
+        <p class="text-2xl font-bold">
+          facebook/roberta-hate-speech-dynabench-r4-target
+        </p>
+        <p>The R4 Target model</p>
+        <p class="text-2xl font-bold">Repositorio</p>
+        <p>
+          <a
+            href="https://huggingface.co/facebook/roberta-hate-speech-dynabench-r4-target"
+            >roberta-hate-speech-dynabench-r4-target</a
+          >
+        </p>
+      </p-tabPanel>
+    </p-tabView></p-panel
+  >
+</div>
